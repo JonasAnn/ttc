@@ -1,0 +1,91 @@
+/* .header_text{
+    width: 45%;
+} */
+main{
+    padding: 5rem 0;
+    /* color: #222322;  */
+
+}
+
+.apply_box{
+    text-align: center;
+    padding: 7rem 0;
+}
+
+.apply_form label{
+    display: block;
+}
+
+.apply_form {
+    color: #222322; 
+    width: 50%;
+    margin: auto;
+}
+
+.apply_btn{
+    border: none;
+}
+
+.apply_form input[type=text],
+.apply_form input[type=email],
+.apply_form input[type=date],
+select{
+    width: 100%;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #222322; 
+
+}
+.apply_form input[type=text],
+.apply_form input[type=email]{
+    margin: .8rem 0;
+}
+
+input,
+select{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1rem;
+}
+
+
+.apply_form textarea{
+    font-family: 'Catamaran', sans-serif;
+    color: #6a6868;
+    width: 100%;
+    border-radius: 8px;
+    padding: .7rem;
+    font-size: 1rem;
+    margin: .8rem 0 0 0;
+}
+
+.apply_btn{
+    background-color: #0d7aea;
+    padding: .8rem 2.5rem;
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+    margin: 1rem 0 0 0;
+    font-size: 1rem;
+}
+
+.dob,
+.sex{
+    margin: .9rem 0 .2rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* .sex{
+    margin: .9rem 0 .2rem 0;
+    font-size: 1.2rem;
+} */
+
+.apply_footer{
+    padding: 1.8rem 0 4rem 0;
+}
+
+
+@media screen and (max-width: 480px) {
+    .apply_form{
+        width: 100%;
+    }
+}
