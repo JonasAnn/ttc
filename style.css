@@ -44,7 +44,8 @@ a{
 }
 
 header{
-    /* background-color: #222322; */
+    background-color: #222322;
+    padding-bottom: 5rem;
 }
 .logo_box{
     width: 6rem;
@@ -58,6 +59,7 @@ header{
    padding: 2rem 0; 
    justify-content: space-between;
    align-items: center;
+   
 }
 .nav_link{
     color: #222322;
@@ -74,6 +76,7 @@ header{
 
 .header_bg{
     background-color: #222322; 
+    padding-bottom: 4rem;
 }
 
 .header_box{
@@ -90,6 +93,14 @@ header{
 .header_image img{
     width: 100%;
     /* margin-left: auto; */
+}
+
+.header_image img{
+    transform: scale(1.1);
+}
+
+.header_text{
+    margin-left: -4rem;
 }
 
 .primary_header{
@@ -167,8 +178,12 @@ header{
 
 .stat_number{
     color: #676be5;
-    font-size: 3rem;
+    font-size: 3.3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 }
+
+
 
 .stat_box-details{
     display: grid;
@@ -209,6 +224,10 @@ grid-row-gap: 40px;
     color: #666ae5;
     text-transform: uppercase;
     padding-bottom: .6rem;
+}
+
+.pt{
+    padding-top: 2.6rem;
 }
 
 .require_btn{
@@ -331,7 +350,7 @@ grid-row-gap: 40px;
         font-size: 14px;
     }
     .navbar{
-        padding: 1rem 0;
+        padding: 1rem 0 2rem 0;
     }
 
     .logo_box{
@@ -340,7 +359,7 @@ grid-row-gap: 40px;
 
     
     .hamburger {
-        display: block;
+        display: none;
     }
 
     .navbar .btn {
@@ -363,9 +382,11 @@ grid-row-gap: 40px;
     }
     .header_text{
         width: 45%;
+        margin-right: 2rem;
     }
     .header_image{
         width: 55%;
+        /* margin-right: 1rem; */
     }
     .header_box-btn{
         border-radius: 25px;
